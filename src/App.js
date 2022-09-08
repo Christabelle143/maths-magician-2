@@ -5,12 +5,9 @@ import './index.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="App">
-        <div className="App-container">
-          <Calculator />
-        </div>
-      </div>
+      <Calculator />
     );
   }
 }
+
 export default App;
