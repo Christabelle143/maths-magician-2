@@ -5,8 +5,10 @@ import './index.css';
 class App extends React.PureComponent {
   render() {
     return (
-      <div>
-        <Calculator />
+      <div className="App">
+        <div className="App-container">
+          <Calculator />
+        </div>
       </div>
     );
   }
