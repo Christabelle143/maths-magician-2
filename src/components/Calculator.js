@@ -10,7 +10,7 @@ class Calculator extends React.PureComponent {
             <td className="button1">AC</td>
             <td className="button1">+/-</td>
             <td className="button1">%</td>
-            <td className="button2">+</td>
+            <td className="button2"><span>&#247;</span></td>
           </tr>
           <tr>
             <td className="button1">7</td>
