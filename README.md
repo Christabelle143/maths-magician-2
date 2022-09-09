@@ -24,11 +24,14 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 Clone the repository and change the directory to math-magicians
 
-  $ git clone git@github.com:Christabelle143/math-magicians.git
+  $ git clone git@github.com:Christabelle143/maths-magician-2.git
 
-  $ cd math-magicians
+  $ cd maths-magicians-2
+
+   $ npm install
 
 ### Usage
+ 
   $ npm start
 
 ## Author
