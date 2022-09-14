@@ -1,8 +1,8 @@
-const Home = () => {
+const Home = () => (
   <>
-    <h1>Maths Magicians</h1>
-
-    <h3>Welcome to our page!</h3>
+    <div className="homepage">
+      <h3>Welcome to our page!</h3>
+    </div>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
       Earum ipsum tempore, ea soluta
@@ -38,6 +38,7 @@ const Home = () => {
       tque.
     </p>
 
-  </>;
-};
+  </>
+);
+
 export default Home;

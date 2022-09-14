@@ -1,9 +1,15 @@
+
 body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#003366;
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 22px;
+  margin: 40px;
+  padding: 30px;
+  color: #eee;
 }
 
 button {
@@ -24,6 +30,7 @@ button:active {
   justify-content: center;
   align-items: center;
   border: solid 1px black;
+  color: black;
 }
 
 .calc-input {
@@ -58,4 +65,48 @@ button:active {
 .zero {
   width: 50%;
   height: 40px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+   justify-content: space-between; 
+   border-bottom: 1px solid #f2f2f2;
+}
+.navbar a{
+  margin-left: 20px;
+  text-decoration: none;
+   padding: 6px;
+  border-left: 2px solid grey; 
+}
+
+.navbar a:hover{
+  color: rgb(85, 246, 192);
+  border-left: 4px solid rgb(85, 246, 192);
+}
+.homepage {
+  margin: 2rem;
+}
+
+.homepage h2 {
+  margin-bottom: 10px;
+}
+
+.homepage p {
+  margin: 2rem;
+}
+.quote{
+  text-align: center;
+  margin:70%;
+  margin: 10rem;
+}
+.quotes {
+  quotes: """ """;
+}
+.maths {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 500px; 
+  padding-top: 10%;
+  margin-top: 10px;
 }
