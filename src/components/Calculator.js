@@ -9,8 +9,9 @@ const Calculator = () => {
   };
   return (
     <>
-      <h1>Maths Magicians</h1>
-
+      <div className="maths">
+        <h1>Maths Magicians</h1>
+      </div>
       <h3>Let's do some maths!</h3>
       <div className="calculator-container">
         <div className="calc-input"><span className="result">{state.next || state.total || 0}</span></div>
