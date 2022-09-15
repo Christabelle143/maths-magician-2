@@ -78,6 +78,7 @@ button:active {
   margin-left: 20px;
   text-decoration: none;
   padding: 6px;
+  color: #eee;
   border-left: 2px solid grey;
 }
 
