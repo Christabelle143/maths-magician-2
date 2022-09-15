@@ -1,11 +1,11 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 import renderer from 'react-test-renderer';
-// import { Router } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Quote from './components/Quote';
+import { Router } from 'react-router-dom';
+import Calculator from '../components/Calculator';
+import Navbar from '../components/Navbar';
+import Home from '../components/Home';
+import Quote from '../components/Quote';
 
 it('should render home component correctly', () => {
   const home = renderer
@@ -26,8 +26,12 @@ it('should render Calculator component correctly', () => {
   expect(calculate).toMatchSnapshot();
 });
 it('should render Navbar component correctly', () => {
-  const navbar = renderer
-    .create(<Navbar />)
+  <Router>
+    const navbar = renderer
+    .create(
+    <Navbar />
+    )
     .toJSON();
-  expect(navbar).toMatchSnapshot();
+    expect(navbar).toMatchSnapshot();
+  </Router>;
 });
