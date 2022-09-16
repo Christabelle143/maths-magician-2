@@ -16,9 +16,9 @@ ReactDOM.render(
       <Navbar />
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="calculator" element={<Calculator />} />
-          <Route path="quote" element={<Quote />} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
         </Routes>
       </div>
     </div>

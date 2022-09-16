@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Calculator component correctly 1`] = `
+<div
+  className="maths"
+>
+  <div
+    className="math"
+  >
+    <h2>
+      let\`s do some math!
+    </h2>
+  </div>
+  <div
+    className="calculator-container"
+  >
+    <div
+      className="calc-input"
+    >
+      <span
+        className="result"
+      >
+        0
+      </span>
+    </div>
+    <div
+      className="buttons"
+    >
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="bg-1 active"
+        onClick={[Function]}
+        type="button"
+      >
+        <span>
+          ÷
+        </span>
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="bg-1 active"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="bg-1 active"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="bg-1 active"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="bg-1"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="bg-1 active"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render home component correctly 1`] = `
+<div>
+  <div
+    className="homepage"
+  >
+    <h3>
+      Welcome to our page!
+    </h3>
+  </div>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ipsum tempore, ea soluta tenetur expedita dignissimos similique deleniti doloribus fugiat! Necessitatibus, sint doloribus deserunt voluptates impedit cumque alias, aperiam illo dolore explicabo iure culpa distinctio inventore perspiciatis sunt ipsam atque.Lorem ipsum dolor sit amet consectetur, adipi sicing elit. Earum ipsum tempore, ea soluta tenetur expedita dignissimos similique deleniti doloribus fugiat! Necessitatibus, sint doloribus deserunt voluptates impedit cumque alias, aperiam illo dolore explicabo iure culpa distinctio inventore perspiciatis sunt ipsam a tque.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum ipsum tempore, ea soluta tenetur expedita dignissimos similique deleniti doloribus fugiat! Necessitatibus, sint doloribus deserunt voluptates impedit cumque alias, aperiam illo dolore explicabo iure culpa distinctio inventore perspiciatis sunt ipsam atque.Lorem ipsum dolor sit amet consectetur, adipi sicing elit. Earum ipsum tempore, ea soluta tenetur expedita dignissimos similique deleniti doloribus fugiat! Necessitatibus, sint doloribus deserunt voluptates impedit cumque alias, aperiam illo dolore explicabo iure culpa distinctio inventore perspiciatis sunt ipsam a tque.
+  </p>
+</div>
+`;
+
+exports[`should render quote component correctly 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    <q
+      className="quotes"
+    >
+       
+      Mathmatics is not about numbers,equations, computations, or algorithms: it is about understanding.
+      <span
+        className="author"
+      >
+        -William Paul Thurston
+      </span>
+    </q>
+  </p>
+</div>
+`;
