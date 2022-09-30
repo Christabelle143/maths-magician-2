@@ -9,8 +9,13 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 - React JS
 - CSS
 - Javascript (ES6)
+
+## SCREENSHOT
+
+![screenshot](mathspic.PNG)
+
 ## LIVE DEMO
-Not yet available
+[LIVE DEMO](https://christabelle143-maths-magician-2.netlify.app/)
 
 ## Getting Started
 
