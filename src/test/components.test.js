@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Router } from 'react-router-dom';
