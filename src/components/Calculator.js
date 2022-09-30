@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
